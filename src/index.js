@@ -5,7 +5,9 @@ import Temp from './Temperature';
 import Prod from './Product';
 // Stat from './Statistics';
 import Counter from './Counter';
-import Greeting from './Greeting'
+import Greeting from './Greeting';
+import Bucket from './Bucket';
+import Weather from './Weather'
 import { render } from 'react-dom';
 
 
@@ -34,5 +36,5 @@ import { render } from 'react-dom';
   // <Counter start={15} like={true} />
 render(
   <div>
-    <Greeting />
+    <Weather />
   </div>, document.getElementById('root'));

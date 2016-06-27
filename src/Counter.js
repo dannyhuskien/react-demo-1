@@ -26,7 +26,7 @@ class Counter extends React.Component{
      this.setState({like: false});
      this.image = 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTxONaBFJHNEMsGZaQ5EytUV4lKEvbeqQLxe637BkYQlYCKW0o4bIy-llA'
    }else {
-     this.setState({like: true});
+      this.setState({like: true});
      this.image = 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR22Hr5kEdmDefsR-slOdXGkVfiYWsrEDUKzr3itVOWGDEaQL7eSw_Z_w'
    }
 
